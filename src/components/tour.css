@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  
+  .underline{
+    width: 96px;
+    height: 4px;
+    background: hsl(240, 2%, 87%);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 11px;
+    font-size: 32px;
+  }
+
+  @media screen and (min-width: 800px) {
+    h2 {
+      font-size: 40px;
+      line-height: 1;
+    }
+}
